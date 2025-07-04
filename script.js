@@ -1,7 +1,7 @@
 const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 
-botaoMostraPalavras.addEvebotaoMostraPalavrasntListener('click' ,mostrapalavraschaves);
+botaoMostraPalavras.addEventListener('click' ,mostrapalavraschave);
  
-function mostrapalavraschaves(){
+function mostrapalavraschave(){
     alert('Deu boa')
 }
